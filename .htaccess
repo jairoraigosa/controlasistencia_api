@@ -1,0 +1,25 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA] 
+
+#RewriteCond %{SERVER_PORT} 80 
+#RewriteRule ^(.*)$ https://geasis.test/api/$1 [R,L]
+
+<IfModule mod_php5.c>
+   php_value upload_max_filesize 40M
+   php_value post_max_size 40M
+</IfModule>
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the â€œea-php56â€? package as the default â€œPHPâ€? programming language.
+#<IfModule mime_module>
+#  AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
+#</IfModule>
+# php -- END cPanel-generated handler, do not edit
+# Note: Itâ€™s also recommended to enable HTTP Strict Transport Security (HSTS)
+# on your HTTPS website to help prevent man-in-the-middle attacks.
+# See https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
