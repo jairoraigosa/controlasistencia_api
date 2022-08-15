@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/laragon/www/controlasistencia_api/application/libraries/CreatorJwt.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/index.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/application/models/Authentication/Login_model.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/application/controllers/ingresosegresos/Ingresos_egresos.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/application/config/database.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/application/models/ingresosegresos/Ingresos_egresos_model.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/application/controllers/Authentication/Login.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/application/models/empleados/Empleados_model.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/application/controllers/empleados/Empleados.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/application/config/config.php</file>
+            <file>file:/D:/laragon/www/controlasistencia_api/readme.rst</file>
+        </group>
+    </open-files>
+</project-private>

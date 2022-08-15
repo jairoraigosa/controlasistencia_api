@@ -3,7 +3,7 @@
 require APPPATH . '/libraries/JWT.php';
 class CreatorJwt{
    /*************This function generate token private key**************/ 
-    PRIVATE $key = "G34s1sJWTK3y79865432142"; 
+    PRIVATE $key = "C0ntr0lAs1st3nc14123456"; 
     public function __construct(){
         $this->CI = &get_instance();
     }
